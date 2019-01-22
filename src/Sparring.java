@@ -23,7 +23,7 @@ public class Sparring {
 
         /* Create Players for Sparring */
         Player david = new Player("David", "Human", 200, 10);
-        Player artem = new Player("Artem", "Human", 200, 10);
+        Player artem = new Player("Artem", "Human", 200, 20);
 
         /* Initiative */
         int davidsTurn;
@@ -33,5 +33,6 @@ public class Sparring {
         do {
             davidsTurn = ThreadLocalRandom.current().nextInt(20) + 1;
             artemsTurn = ThreadLocalRandom.current().nextInt(20) + 1;
-        } while(davidsTurn == artemsTurn);
+        } while (davidsTurn == artemsTurn);
+    }
 }
