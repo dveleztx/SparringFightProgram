@@ -21,5 +21,7 @@ public class Sparring {
 
     public static void sparring() {
 
-    }
+        /* Create Players for Sparring */
+        Player david = new Player("David", "Human", 200, 10);
+        Player artem = new Player("Artem", "Human", 200, 10);
 }
